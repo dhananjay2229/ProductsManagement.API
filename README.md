@@ -15,7 +15,7 @@ This project uses .NET version 6
     
     Once Git is installed, clone this repository to your local machine:
     ```
-    git clone https://github.com/thoratsanket/ContactManagementSystemApi.git
+    git clone https://github.com/dhananjay2229/ProductsManagementSystemApi.git
     ```
 
 5. **Open the Project in Your IDE**
@@ -42,19 +42,19 @@ This project uses .NET version 6
 
 ## Project Structure
 ```
-- ContactManagement.API
+- ProductsManagement.API
   ----------------------
     This is the primary layer of the application that handles incoming requests from the frontend or UI application. It serves as the entry point for client interactions, processing requests, and routing them to the appropriate services.
 
-- ContactManagement.API.DataAccess
+- ProductsManagement.API.DataAccess
   ------------------------------------
     This layer manages interactions with the database. It employs a generic repository pattern to streamline and standardize database connectivity and operations, enhancing data management efficiency and reliability.
 
-- ContactManagement.API.Models
+- ProductsManagement.API.Models
   --------------------------------
     This layer contains various models or Data Transfer Objects (DTOs) used for handling requests and responses. These models facilitate structured data exchange within the application and with external systems. Data annotations are utilized to apply validations on the request models, ensuring data integrity and adherence to business rules.
 
-- ContactManagement.API.Services
+- ProductsManagement.API.Services
   ----------------------------------
     This layer contains the main business logic of the application. It contains services that implement the core functionalities and processes. The services interacts with data repositories to interact with database.
 ```
