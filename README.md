@@ -1,4 +1,4 @@
-# Contact Management API
+# Product Management API
 
 This project uses .NET version 6
 
